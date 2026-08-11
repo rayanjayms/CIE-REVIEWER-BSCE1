@@ -8,67 +8,6 @@ for BSCE1 TAE NI KATE
 <title>CIE Reviewer — Civil Engineering</title>
 <style>
   *{box-sizing:border-box;margin:0;padding:0;}
-  body{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0b1120;color:#e2e8f0;line-height:1.6;min-height:100vh;}
-  .container{max-width:1000px;margin:0 auto;padding:20px;}
-  .header{background:linear-gradient(135deg,#1e3a5f 0%,#0f172a 100%);padding:40px 30px;text-align:center;border-radius:16px 16px 0 0;border-bottom:1px solid #1e3a5f;}
-  .header h1{margin:0;font-size:2rem;font-weight:800;color:#f8fafc;letter-spacing:-0.02em;}
-  .header p{margin:10px 0 0;color:#94a3b8;font-size:1rem;}
-  .tabs{display:flex;flex-wrap:wrap;gap:8px;padding:20px;background:#1e293b;border-bottom:1px solid #334155;position:sticky;top:0;z-index:10;}
-  .tab{flex:1;min-width:140px;padding:12px 16px;border:1px solid #334155;border-radius:10px;background:#0f172a;color:#94a3b8;font-size:0.82rem;font-weight:700;cursor:pointer;transition:all 0.25s;text-align:center;}
-  .tab:hover{background:#1e3a5f;color:#e2e8f0;}
-  .tab.active{background:#3b82f6;color:#fff;border-color:#3b82f6;box-shadow:0 0 16px rgba(59,130,246,0.35);}
-  .body{padding:28px 24px;background:#0f172a;min-height:500px;}
-  .section{display:none;animation:fadeIn 0.35s ease;}
-  .section.active{display:block;}
-  @keyframes fadeIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
-  .badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:0.72rem;font-weight:800;margin-bottom:12px;letter-spacing:0.02em;text-transform:uppercase;}
-  .badge-blue{background:rgba(59,130,246,0.18);color:#60a5fa;border:1px solid rgba(59,130,246,0.3);}
-  .badge-amber{background:rgba(245,158,11,0.18);color:#fbbf24;border:1px solid rgba(245,158,11,0.3);}
-  .badge-emerald{background:rgba(16,185,129,0.18);color:#34d399;border:1px solid rgba(16,185,129,0.3);}
-  .badge-rose{background:rgba(244,63,94,0.18);color:#fb7185;border:1px solid rgba(244,63,94,0.3);}
-  .badge-purple{background:rgba(168,85,247,0.18);color:#c084fc;border:1px solid rgba(168,85,247,0.3);}
-  .card{background:#1e293b;border:1px solid #334155;border-radius:14px;padding:22px;margin-bottom:16px;transition:all 0.2s;}
-  .card:hover{border-color:#475569;transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.3);}
-  .card h2{margin:0 0 10px;color:#60a5fa;font-size:1.15rem;font-weight:700;}
-  .card h3{margin:0 0 8px;color:#94a3b8;font-size:1rem;font-weight:600;}
-  .card p,.card ul{margin:0;color:#cbd5e1;font-size:0.9rem;}
-  .card ul{padding-left:22px;}
-  .card li{margin-bottom:6px;}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;}
-  .quote{border-left:4px solid #3b82f6;padding-left:16px;margin:14px 0;font-style:italic;color:#94a3b8;font-size:0.88rem;background:rgba(59,130,246,0.05);padding:12px 16px;border-radius:0 8px 8px 0;}
-  .timeline{position:relative;padding-left:28px;}
-  .timeline::before{content:'';position:absolute;left:8px;top:4px;bottom:4px;width:2px;background:#334155;}
-  .tl-item{position:relative;margin-bottom:18px;}
-  .tl-item::before{content:'';position:absolute;left:-26px;top:6px;width:12px;height:12px;border-radius:50%;background:#3b82f6;border:3px solid #0f172a;}
-  .tl-item span{display:block;color:#64748b;font-size:0.78rem;margin-bottom:3px;font-weight:600;}
-  .tl-item strong{color:#e2e8f0;font-size:0.95rem;}
-  .tools{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;}
-  .tool{background:#0f172a;border:1px solid #334155;border-radius:6px;padding:5px 12px;font-size:0.78rem;color:#94a3b8;font-weight:600;}
-  .career{display:flex;align-items:center;gap:14px;padding:14px;background:#0f172a;border-radius:12px;margin-bottom:12px;border:1px solid #334155;}
-  .career-icon{width:42px;height:42px;border-radius:50%;background:#1e3a5f;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0;}
-  .career-info h4{margin:0;color:#e2e8f0;font-size:0.95rem;}
-  .career-info p{margin:3px 0 0;color:#94a3b8;font-size:0.82rem;}
-  .arrow{display:flex;justify-content:center;padding:4px 0;color:#475569;font-size:1.4rem;}
-  .highlight-card{text-align:center;border-color:#3b82f6;background:linear-gradient(135deg,rgba(59,130,246,0.1),rgba(59,130,246,0.05));}
-  .highlight-card h2{color:#60a5fa;}
-  @media print{
-    body{background:#fff;color:#000;}
-    .header{background:#1e3a5f;color:#fff;}
-    .tab{background:#f1f5f9;color:#334155;border-color:#cbd5e1;}
-    .tab.active{background:#3b82f6;color:#fff;}
-    .card{background:#f8fafc;border-color:#e2e8f0;color:#1e293b;}
-    .card h2,.card h3{color:#1e40af;}
-    .card p,.card li{color:#334155;}
-  }
-  @media (max-width:640px){
-    .header h1{font-size:1.4rem;}
-    .tab{min-width:100%;font-size:0.75rem;}
-    .grid{grid-template-columns:1fr;}
-  }
-</style>
-</head>
-<body>
-<div class="container">
 
 <div class="header">
   <h1>🏗️ CIE Reviewer — Civil Engineering</h1>
