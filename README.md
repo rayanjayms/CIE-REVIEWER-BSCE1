@@ -1,13 +1,5 @@
 # CIE-REVIEWER-BSCE1
 for BSCE1 TAE NI KATE
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CIE Reviewer — Civil Engineering</title>
-<style>
-  *{box-sizing:border-box;margin:0;padding:0;}
 
 <div class="header">
   <h1>🏗️ CIE Reviewer — Civil Engineering</h1>
