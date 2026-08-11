@@ -475,23 +475,4 @@ for BSCE1 TAE NI KATE
     </div>
   </div>
   <div class="card highlight-card">
-    <h2>🌟 Concluding Notes: Opportunities and Growth</h2>
-    <p>A career in civil engineering is a path full of opportunities and growth. With the right education, experience, and dedication, you can make a significant impact on society by designing and building the infrastructure that sustains modern life. Whether you are drawn to structural engineering, environmental concerns, or any of the other specializations within the field, a career in civil engineering promises exciting challenges and the satisfaction of creating a lasting legacy through your work.</p>
-  </div>
-</div>
-
-</div>
-
-<script>
-  function showTab(n) {
-    const tabs = document.querySelectorAll('.tab');
-    const sections = document.querySelectorAll('.section');
-    tabs.forEach((t, i) => { t.classList.toggle('active', i === n); });
-    sections.forEach((s, i) => { s.classList.toggle('active', i === n); });
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  }
-</script>
-
-</div>
-</body>
-</html>
+   
